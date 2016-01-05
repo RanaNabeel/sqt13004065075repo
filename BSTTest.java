@@ -21,5 +21,13 @@ public class BinarySearchTreeTest {
 	   assertNotNull(b);
 	   
    } 
+   @Test
+   public void isEmpty(){
+	   	
+	   TestCase.assertTrue(bst.isEmpty());
+	   bst.insert(32);
+	   assertFalse(bst.isEmpty());
+   }
+
 
 }
