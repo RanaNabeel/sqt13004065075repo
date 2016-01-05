@@ -48,4 +48,15 @@ public class BinarySearchTreeTest {
 
 
 
+   @Test
+   public void search(){
+	   bst.insert(32);
+	   bst.insert(12);
+	   assertTrue(bst.search(32));
+	   assertTrue(bst.search(12));
+	   assertTrue(bst.search(32));
+	   
+   }
+
+
 }
