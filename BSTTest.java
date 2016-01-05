@@ -37,6 +37,15 @@ public class BinarySearchTreeTest {
 	   bst.insert(9);
 	   assertTrue( bst.search(9));
    }
+   @Test
+   public void deleteTest(){
+	   bst.insert(2);
+	   bst.insert(3);
+	   assertTrue(bst.search(2));
+	   bst.delete(2);
+	   assertFalse(bst.search(2));
+   }
+
 
 
 }
