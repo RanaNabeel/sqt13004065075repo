@@ -28,6 +28,15 @@ public class BinarySearchTreeTest {
 	   bst.insert(32);
 	   assertFalse(bst.isEmpty());
    }
+   @Test
+   public void insertTest(){
+	   bst.insert(3);
+	   assertTrue( bst.search(3));
+	   bst.insert(2);
+	   assertTrue( bst.search(2));
+	   bst.insert(9);
+	   assertTrue( bst.search(9));
+   }
 
 
 }
