@@ -15,5 +15,11 @@ public class BinarySearchTreeTest {
 	bst=new BST();
 		
 	}
+   @Test
+   public void initTest(){
+	  BST b = new BST();
+	   assertNotNull(b);
+	   
+   } 
 
 }
